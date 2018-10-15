@@ -1,0 +1,6 @@
+StaticArrays
+DifferentialEquations
+BenchmarkTools
+Plots
+Printf
+Distances
