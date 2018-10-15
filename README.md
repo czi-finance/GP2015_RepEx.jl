@@ -16,11 +16,11 @@ using Printf
 using Distances
 ```
 
-where `ParDiffEqnSuite.jl` is a user-defined module that can be found in `./src/`
+where `ParDiffEqnSuite.jl` is a user-defined module that can be found in `./src/`.
 
 ## Preparation
 
-First, I define a parametric composite type to store model parameters
+First, I define a parametric composite type to store model parameters.
 
 
 ```julia
