@@ -1,7 +1,7 @@
 
 # A Replication Exercise of Garleanu and Panageas (2015)
 
-In this notebook, I seek to solve the model developed by Garleanu and Panageas (2015) and replicate their main results (plots). 
+In this notebook, I seek to solve the model developed by [Garleanu and Panageas (2015)](http://dx.doi.org/10.1086/680996) and replicate their main results (plots). 
 
 To get started, the following modules should be in place:
 
