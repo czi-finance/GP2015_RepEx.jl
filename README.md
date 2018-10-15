@@ -1,7 +1,7 @@
 
 # A Replication Exercise of Garleanu and Panageas (2015)
 
-In this notebook, I seek to solve the model developed by [Garleanu and Panageas (2015)](http://dx.doi.org/10.1086/680996) and replicate their main results (plots). 
+In this notebook, I seek to solve the model developed by [Garleanu and Panageas (2015)](http://dx.doi.org/10.1086/680996) and replicate their main results (plots). I greatly benefited from a similar exercise done by [Matthieu Gomez](https://github.com/matthieugomez).
 
 To get started, the following modules should be in place:
 
@@ -60,4 +60,20 @@ struct ModelParam{T}
 end
 ```
 
-One can construct a new `ModelParam` object by calling `x = ModelParam()`, which will render the baseline parameter values in the paper. Or instead, one can deviate from the baseline by calling `x = ModelParam(ψA = 0.9, ψB = 0.5)` to change one or more paramter values while keep the others the same.
+One can construct a new `ModelParam` object by calling `x = ModelParam()`, which will deploy the baseline parameter values in the paper. Or instead, one can deviate from the baseline by calling something like `x = ModelParam(ψA = 0.9, ψB = 0.5)` to change one or more paramter values while keeping the others the same. The default number type is `Float64`, but one can choose `T = BigFloat` for higher precision.
+
+Then I define another composite type to store discretized state variables.
+
+
+```julia
+struct StateVars{T, dim1} # add dim2, dim3, ... if more than one state variable
+    x::SVector{dim1, T}
+    
+    function StateVars(dim1; T = Float64)
+        x = SVector{dim1, T}(range(zero(T), stop=one(T), length=dim1))
+        return new{T, dim1}(x)
+    end
+end
+```
+
+Note that static arrays, instead of regular ones, are used for better performance. Static arrays conveniently keep the length as a type parameter, which will be repeatedly used later. There is only one state variable in this model, but this composite type can be easily extended to accomodate higher-dimension problems.
