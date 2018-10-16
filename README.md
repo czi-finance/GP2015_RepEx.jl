@@ -273,7 +273,7 @@ isconverge1(sol)
 
 
 
-![png](output_27_0.png)
+![png](./graphics/output_27_0.png)
 
 
 
