@@ -285,7 +285,7 @@ isconverge2(msV0, sol)
 
 
 
-<img src="tmp.gif?0.17904981350788085>" />
+<img src="./graphics/tmp.gif?0.17904981350788085>" />
 
 
 
@@ -458,5 +458,5 @@ png("./solplot")
 ```
 
 
-![png](output_36_0.png)
+![png](./graphics/output_36_0.png)
 
