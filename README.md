@@ -287,14 +287,6 @@ isconverge2(msV0, sol)
 ![png](output_28_0.png)
 
 
-    ┌ Info: Saved animation to 
-    │   fn = /home/czi/Dropbox/Main/Julia/HPCTv10/tmp.gif
-    └ @ Plots /home/czi/.julia/packages/Plots/Ufx0i/src/animation.jl:90
-
-
-
-
-
 <img src="tmp.gif?0.17904981350788085>" />
 
 
