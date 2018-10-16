@@ -62,7 +62,7 @@ struct ModelParam{T}
 end
 ```
 
-One can construct a new `ModelParam` object by calling `x = ModelParam()`, which will deploy the baseline parameter values in the paper. Or instead, one can deviate from the baseline by calling something like `x = ModelParam(ψA = 0.9, ψB = 0.5)` to change one or more paramter values while keeping the others the same. The default number type is `Float64`, but one can choose `T = BigFloat` for higher precision.
+One can construct a new `ModelParam` object by calling `x = ModelParam()`, which will deploy the baseline parameter values from the paper. Or instead, one can deviate from the baseline by calling something like `x = ModelParam(ψA = 0.9, ψB = 0.5)` to change one or more paramter values while keeping the others the same. The default number type is `Float64`, but one can choose `T = BigFloat` for higher precision.
 
 The second composite type is used to store discretized state variables.
 
