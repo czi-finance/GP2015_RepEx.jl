@@ -284,8 +284,6 @@ isconverge2(msV0, sol)
 ```
 
 
-![png](output_28_0.png)
-
 
 <img src="tmp.gif?0.17904981350788085>" />
 
