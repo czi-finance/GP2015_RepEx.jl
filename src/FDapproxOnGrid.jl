@@ -39,7 +39,7 @@ function fntdiff1d(x::StaticVector{N,T}, y::AbstractArray{T,1}, i::Int64) where 
                    x[i-1] - x[i-2])
                 )
     else
-        error("BoundsError: index $i ∉ [1, $N]")
+        throw(BoundsError(x, i))
     end
     
     return ∂ₓy, ∂ₓₓy
