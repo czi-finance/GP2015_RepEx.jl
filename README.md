@@ -273,7 +273,7 @@ isconverge1(sol)
 
 
 
-![png](./graphics/output_27_0.png)
+![png](https://github.com/cziFinEcon/GP2015_RepEx/graphics/output_27_0.png)
 
 
 
@@ -283,7 +283,7 @@ isconverge1(sol)
 isconverge2(msV0, sol)
 ```
 
-![gif](./graphics/tmp.gif)
+![gif](https://github.com/cziFinEcon/GP2015_RepEx/graphics/tmp.gif)
 
 <!-- <img src="./graphics/tmp.gif?0.17904981350788085>" /> -->
 
