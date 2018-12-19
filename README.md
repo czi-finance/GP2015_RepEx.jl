@@ -285,7 +285,7 @@ isconverge2(msV0, sol)
 
 ![gif](https://github.com/cziFinEcon/GP2015_RepEx/blob/master/graphics/tmp.gif)
 
-<!-- <img src="./graphics/tmp.gif?0.17904981350788085>" /> -->
+<!-- <img src="https://github.com/cziFinEcon/GP2015_RepEx/blob/master/graphics/tmp.gif" width="300"> -->
 
 
 
