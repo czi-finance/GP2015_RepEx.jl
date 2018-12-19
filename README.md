@@ -283,9 +283,9 @@ isconverge1(sol)
 isconverge2(msV0, sol)
 ```
 
+![gif](./graphics/tmp.gif)
 
-
-<img src="./graphics/tmp.gif?0.17904981350788085>" />
+<!-- <img src="./graphics/tmp.gif?0.17904981350788085>" /> -->
 
 
 
